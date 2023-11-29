@@ -1,6 +1,8 @@
 let num = prompt();
-num = Number(num);
+num = parseInt(num);
 
-for(let num=0; num<=; num++){
-    console.log(num+"回目");
+
+for (let i = 1; i <= num; i++) {
+    console.log(`${i}回目`);
+    // console.log("hello");
 }

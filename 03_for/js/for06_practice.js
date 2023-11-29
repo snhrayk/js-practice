@@ -2,3 +2,13 @@
 let wallet = 12800;
 //価格
 let price = 980;
+
+if () {
+
+}
+else if () {
+
+}
+else {
+
+}
