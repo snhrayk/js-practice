@@ -6,5 +6,6 @@ const submit = document.getElementById("submit");
 const menu = document.getElementById("menu");
 
 submit.onclick = () => {
-    menu.innerText = "注文内容は" + main.value + "、" + sub.value + "、" + soup.value + "、" + side.value + "です。";
+    menu.innerText = `注文内容は${main.value}、${sub.value}、${soup.value}、${side.value}です。`
+    // menu.innerText = "注文内容は" + main.value + "、" + sub.value + "、" + soup.value + "、" + side.value + "です。";
 }
