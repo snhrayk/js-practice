@@ -1,7 +1,9 @@
-const tr = document.querySelectorAll("tr");
-const name = document.querySelectorAll(".name");
-console.log(tr.name);
+const td = document.querySelectorAll("td");
+const topName = document.querySelectorAll(".name");
+console.log(td, topName);
 
-for (let i = 0; i < name.length; i++) {
-    console.log(tr[i]);
-} 
+// console.log(topName[0]);
+
+for (let i = 0; i < topName.length; i++) {
+    console.log(topName[i]);
+}
